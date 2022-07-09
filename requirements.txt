@@ -1,2 +1,5 @@
 click<=8.0.4
 streamlit==1.9.2
+gspread==5.4.0
+pandas==1.4.3
+oauth2client==1.7.0
