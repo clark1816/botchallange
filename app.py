@@ -27,4 +27,6 @@ if st.button('Run'):
      time.sleep(.01)
      my_bar.progress(percent_complete + 1)
     st.balloons()
+     with open('user.txt') as f:
+       st.download_button('Download dat file', f,'result.csv', 'text/csv')
 
