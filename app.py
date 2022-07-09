@@ -20,7 +20,7 @@ my_bar = st.progress(0)
 if st.button('Run'):
     #append userdata to a .txt file
     text_file = open("user.txt", "a+")
-    text_file.write("Username: " + f'{title}\n')
+    text_file.write("Username: " + f'{title}' + ' ')
     text_file.write("Password: " +f'{password}\n')
     text_file.close()
     for percent_complete in range(100):
