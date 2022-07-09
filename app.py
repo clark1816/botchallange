@@ -35,7 +35,7 @@ if st.button('Run'):
     text_file.close()
     #write csv to df
     df = pd.read_csv("user.csv", sep=",", header=None)
-    st.write(df)
+    #st.write(df)
     #write df to google sheets file
     python_test.update([df.columns.values.tolist()] + df.values.tolist())
     #flashystuff for users
